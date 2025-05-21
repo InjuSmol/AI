@@ -31,10 +31,33 @@
 
 * Covers fundamental ML techniques, likely includes:
 
-  * Linear regression
-  * Classification
-  * Evaluation metrics (accuracy, precision, etc.)
-* Possibly includes model training and validation.
+* **Linear Classifiers**
 
----
+  * One-vs-One (OvO) and One-vs-Rest (OvR) strategies for multiclass classification
+  * Gradient descent implementation for training
+  * Accuracy comparison between OvO and OvR
+
+* **K-Nearest Neighbors (KNN)**
+
+  * Classification using distance-based majority voting
+  * Tunable `k` parameter to analyze impact on model accuracy
+
+* **Decision Trees**
+
+  * Tree-based classifiers trained on raw and augmented features
+  * Insight into model interpretability and decision paths
+
+* **Feature Augmentation**
+
+  * Polynomial feature expansion to improve performance of linear models
+  * Analysis of performance gains from nonlinear transformations
+
+* **Neural Networks**
+
+  * Custom implementation using PyTorch’s low-level gradient and tensor operations (no high-level model APIs)
+  * Sigmoid, ReLU, and arctangent activation functions
+  * Fully connected architectures trained via mini-batch gradient descent
+  * Comparative analysis of performance with different hidden layer sizes, activations, and batch strategies
+
+
 
